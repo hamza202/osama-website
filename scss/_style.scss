@@ -192,7 +192,7 @@ p {
     }
   }
 }
-.service-section{
+.service-section{transition:  all ease-in-out 0.3s;
   background-color: var(--service-bg);
   overflow: hidden;
 }
