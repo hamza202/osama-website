@@ -1,0 +1,61 @@
+html{
+  --hero-section-bg: #101010;
+  --main-title: #fff;
+  --main-btn-bg:#197BFF;
+  --main-btn-hover-bg:#fff;
+  --main-btn-hover-color:#197BFF;
+  --service-bg:#1C1C1C;
+  --service-title-color:#fff;
+  --ship2: rgba(255,255,255,0.5)
+}
+html[data-theme='light'] {
+  --hero-section-bg: #fff;
+  --main-title: #000;
+  --main-btn-hover-bg:#101010;
+  --main-btn-hover-color:#fff;
+  --service-bg:#F9F9F9;
+  --service-title-color:#197BFF;
+  --ship2: rgba(0,0,0,0.5)
+}
+
+$dark-2:#2C2C2C;
+$dark-3:#454545;
+$gray-color:#707070;
+$form-text-color:#AFB7C4;
+
+@font-face {
+  font-family: 'gulf';
+  src: local('gulf-thin'), url("../fonts/Gulf-thin.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'gulf';
+  src: local('gulf-Regular'), url("../fonts/ArbFONTS-Gulf-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'gulf';
+  src: local('gulf-medium'), url("../fonts/Gulf-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'gulf';
+  src: local('gulf-semi-Bold'), url("../fonts/Gulf-semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'gulf';
+  src: local('gulf-bold'), url("../fonts/Gulf-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
